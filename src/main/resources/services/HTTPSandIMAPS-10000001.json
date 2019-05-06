@@ -1,0 +1,9 @@
+{
+  "@class" : "org.apereo.cas.services.RegexRegisteredService",
+  "serviceId" : "^(https|imaps|http)://172\\.16\\.11\\.135.*",
+  "name" : "172.16.11.135",
+  "id" : 11000001,
+  "description" : "这是一个172.16.11.135服务，支持https和http的所有请求",
+  "logoutType" : "BACK_CHANNEL",
+  "logoutUrl" : "http://172.16.11.135/cas?client_name=CasClient"
+}
