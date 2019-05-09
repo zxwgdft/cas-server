@@ -1,0 +1,9 @@
+{
+  "@class" : "org.apereo.cas.services.RegexRegisteredService",
+  "serviceId" : "^(https|imaps|http)://172\\.16\\.11\\.135:8010.*",
+  "name" : "Paladin Framework",
+  "id" : 7000001,
+  "description" : "Paladin Framework 172.16.11.135::8010",
+  "logoutType" : "BACK_CHANNEL",
+  "logoutUrl" : "http://172.16.11.135/cas?client_name=CasClient"
+}

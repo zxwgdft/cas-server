@@ -1,0 +1,9 @@
+{
+  "@class" : "org.apereo.cas.services.RegexRegisteredService",
+  "serviceId" : "^(https|imaps|http)://172\\.16\\.11\\.18.*",
+  "name" : "诚信系统",
+  "id" : 7000003,
+  "description" : "诚信系统 172.16.11.18",
+  "logoutType" : "BACK_CHANNEL",
+  "logoutUrl" : "http://172.16.11.135/cas?client_name=CasClient"
+}
