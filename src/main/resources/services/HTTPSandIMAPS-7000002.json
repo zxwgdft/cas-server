@@ -1,9 +1,12 @@
 {
   "@class" : "org.apereo.cas.services.RegexRegisteredService",
-  "serviceId" : "^(https|imaps|http)://172\\.16\\.11\\.135:8011.*",
-  "name" : "诚信系统",
+  "serviceId" : "^(https|imaps|http)://192\\.168.*",
+  "name" : "小米路由内系统",
   "id" : 7000002,
-  "description" : "诚信系统 172.16.11.135::8011",
+  "description" : "诚信系统 192.168网段",
   "logoutType" : "BACK_CHANNEL",
-  "logoutUrl" : "http://172.16.11.135/cas?client_name=CasClient"
+  "logoutUrl" : "http://192.168.31.128/cas?client_name=CasClient",
+  "attributeReleasePolicy" : {
+    "@class" : "org.apereo.cas.services.ReturnAllAttributeReleasePolicy"
+  }
 }

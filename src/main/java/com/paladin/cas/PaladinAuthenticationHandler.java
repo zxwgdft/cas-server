@@ -90,7 +90,7 @@ public class PaladinAuthenticationHandler extends AbstractUsernamePasswordAuthen
         }
 
         Map<String, Object> attributes = new HashMap<>();
-        attributes.put("id", user.getId());
+        attributes.put("user", user);
 
         final Principal principal = this.principalFactory.createPrincipal(username, attributes);
         return createHandlerResult(credential, principal, new ArrayList<>(0));

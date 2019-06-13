@@ -1,9 +1,12 @@
 {
   "@class" : "org.apereo.cas.services.RegexRegisteredService",
-  "serviceId" : "^(https|imaps|http)://172\\.16\\.11\\.135:8010.*",
-  "name" : "Paladin Framework",
+  "serviceId" : "^(https|imaps|http)://172\\.16\\.11.*",
+  "name" : "区域卫生项目",
   "id" : 7000001,
-  "description" : "Paladin Framework 172.16.11.135::8010",
+  "description" : "区域卫生项目 172.16.11网段",
   "logoutType" : "BACK_CHANNEL",
-  "logoutUrl" : "http://172.16.11.135/cas?client_name=CasClient"
+  "logoutUrl" : "http://172.16.11.135/cas?client_name=CasClient",
+  "attributeReleasePolicy" : {
+    "@class" : "org.apereo.cas.services.ReturnAllAttributeReleasePolicy"
+  }
 }
