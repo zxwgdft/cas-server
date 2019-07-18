@@ -1,11 +1,11 @@
 {
   "@class" : "org.apereo.cas.services.RegexRegisteredService",
-  "serviceId" : "^(https|imaps|http)://172\\.16\\.11.*",
-  "name" : "区域卫生项目",
+  "serviceId" : "^(https|imaps|http)://.*",
+  "name" : "测试",
   "id" : 7000001,
-  "description" : "区域卫生项目 172.16.11网段",
+  "description" : "测试单点登录服务",
   "logoutType" : "BACK_CHANNEL",
-  "logoutUrl" : "http://172.16.11.135/cas?client_name=CasClient",
+  "logoutUrl" : "http://58.210.169.168:9091/cas?client_name=CasClient",
   "attributeReleasePolicy" : {
     "@class" : "org.apereo.cas.services.ReturnAllAttributeReleasePolicy"
   }

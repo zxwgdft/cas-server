@@ -7,10 +7,10 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties(value = "paladin")
 public class CustomAuthProperties {
 	
-	private String dbUrl = "jdbc:mysql://127.0.0.1:3306/credit?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false";
+	private String dbUrl = "jdbc:mysql://172.16.0.105:3306/credit?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false";
 	private String dbName = "credit";
 	private String dbUsername = "root";
-	private String dbPassword = "";
+	private String dbPassword = "root";
 	
 	
 	public String getDbUrl() {
